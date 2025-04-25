@@ -6,7 +6,7 @@ import wikipedia
 import webbrowser
 import os
 
-# Initialize speech engine
+
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)  # Female voice (change index for male)
